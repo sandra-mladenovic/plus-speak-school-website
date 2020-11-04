@@ -1,0 +1,447 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Courgette', cursive;
+	background-color:#f5f5f5;
+	text-align:justify;
+}
+.cistac{
+	clear:both;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	list-style-type:none;
+}
+.okvir{
+	width:100%;
+}
+/* HEDER */
+.heder{
+	width:100%;
+}
+.heder-gore{
+	width:100%;
+}
+.heder-levo{
+	width:50%;
+	float:left;
+	background-color: #fff;
+}
+.heder-levo ul{
+	width:100%;
+}
+.heder-levo ul li{
+	width:33.33%;
+	float:left;
+	padding:2%;
+	text-align:center;
+}
+.heder-levo ul li a{
+	color:#618685;
+}
+.heder-desno{
+	width:50%;
+	float:right;
+	background-color: #fff;
+}
+.heder-desno ul{
+	width:100%;
+}
+.heder-desno ul li{
+	width:33.33%;
+	float:left;
+	padding:2%;
+	text-align:center;
+}
+.heder-desno .fa-facebook{
+	color:#2b4a76;
+}
+.heder-desno .fa-youtube-play{
+	color:#ff1d18;
+}
+.heder-desno .fa-twitter{
+	color:#3bc3ea;
+}
+.heder-dole{
+	width:100%;
+	background-color:#d5f4e6;
+}
+.heder-dole h1{
+	padding:2% 0% 0% 0%;
+	text-align:center;
+	font-size:35px;
+}
+.heder-dole h1 a{
+	color:#000099;
+	font-family: 'Berkshire Swash', cursive;
+}
+/* KRAJ HEDERA */
+/* NAVIGACIJA */
+.navigacija{
+	width:100%;
+	background-color:  #618685;
+	top:0;
+	left:0;
+}
+.navigacija ul{
+	width:100%;
+	margin:0px auto;
+}
+.navigacija ul li{
+	width:25%;
+	float:left;
+	padding-top:15px;
+	padding-bottom:15px;
+	text-align:center;
+	cursor:pointer;
+	transition:all 0.5s ease;
+}
+.navigacija ul li a:hover{
+	color:#d5f4e6;
+	font-weight:bold;
+}
+.navigacija ul li a{
+	color:#fff;
+	font-size:18px;
+}
+/* KRAJ NAVIGACIJE*/
+/* SLAJDER*/
+.slajder{
+	background-image: url('../slike/slajder.jpg');
+	height:450px;
+	background-repeat: no-repeat;
+	position:relative;
+	margin-left:50px;
+	margin-right:50px;
+}
+/* KRAJ SLAJDERA */
+/* SADRZAJ STRANICE */
+.naslov{
+	width: 100%;
+	border-top: 1px solid #d5f4e6;
+	border-bottom:1px solid #d5f4e6;
+	padding: 1% 0%;
+	background-color:  #618685;
+}
+.naslov h2{
+	text-align: center;
+	color: #fff;
+	font-size:30px;
+}
+.sadrzaj{
+	width:80%;
+	margin:0px auto;
+	padding-top:2%;
+}
+.razmak{
+	padding-top:2%;
+}
+#sadrzaj-dole{
+	width:65%;
+	margin:0px auto;
+}
+.box{
+	width:100%;
+}
+.box h3{
+	text-align:center;
+	border-bottom: 1px solid #000;
+}
+.h3{
+	padding-bottom:4%;
+	color:#000099;
+}
+#p{
+	width:40%;
+	text-align:center;
+	margin:0px auto;
+	padding-top:1.5%;
+}
+#blok{
+	width:65%;
+	margin:10px auto;
+	padding:2% 0%;
+}
+.slika{
+	width:80%;
+	margin:0px auto;
+}
+.blok-levo{
+	width:50%;
+	float:left;
+	border-radius:20% 0% 0% 20%;
+}
+.blok-desno{
+	width:50%;
+	float:right;
+	border-radius:0% 20% 20% 0%;
+}
+.blok-levo p, .blok-desno p{
+	text-align:center;
+	padding:3%;
+}
+.blok-levo p a, .blok-desno p a{
+	color:#d5f4e6;
+}
+.blok-levo p a:hover, .blok-desno p a:hover{
+	font-weight:bold;
+	color:#fff;
+}
+.blok-levo, .blok-desno{
+	background-color:#000099;
+	
+}
+/* FUTER */
+.futer{
+	width:100%;
+	background-color: #618685;
+}
+.futer p{
+	color:#fff;
+	text-align:center;
+	padding:2% 0%;
+}
+/* STRANICA KURSEVI ZA ODRASLE*/
+.slajder1{
+	background-image: url('../slike/engleski_slajder.jpg');
+	height:450px;
+	background-repeat: no-repeat;
+	position:relative;
+	margin-left:50px;
+	margin-right:50px;
+}
+.blok{
+	width:90%;
+	margin:0px auto;
+	float:left;
+}
+.blok-gore{
+	width:30%;
+	float:right;
+	padding:5% 3%;
+}
+.blok-gore p, .blok-gore h3{
+	text-align:center;
+}
+h3{
+	color:#000099;
+}
+.tekst p{
+	text-align:center;
+}
+.block{
+	display:none;
+}
+/* KONTAKT STRANICA */
+.sadrzaj-dole-kontakt{
+	width:100%;
+	margin:0px auto;
+}
+.blok-kontakt{
+	width:100%;
+}
+.blok-gore-kontakt{
+	width:50%;
+	float:left;
+}
+.blok-gore-kontakt h3, .blok-gore-kontakt p{
+	text-align:center;
+}
+.mapa{
+	width:100%;
+	margin-top:2%;
+}
+.kontakt-forma, .forma{
+	width:100%;
+	margin-top:3%;
+}
+.form-group{
+	width:100%;
+	margin:0px auto;
+	padding:1%;
+	text-align:center;
+}
+ .podatak{
+	width:100%;
+	color:#000099;
+	font-size:16px;
+	text-align:center;
+	padding:4px;
+}
+.kolona,.form-control{
+	width:80%;
+	padding:6px;
+	color:#555;
+	border-radius:5px;
+	border-color:#fff;
+	font-family: 'Courgette', cursive;
+	margin:0px auto;
+}
+.btn{
+	width:50%;
+	padding:10px 0px;
+	font-size:18px;
+	text-align:center;
+	
+}
+.btn-default{
+	color:#618685;
+	background-color:#d5f4e6;
+	border-radius:5px;
+	font-family: 'Courgette', cursive;
+}
+.btn-default:hover{
+	font-weight:bold;
+
+}
+select{
+	border-radius:5px;
+}
+/* RESPONSIVE */
+@media screen and (max-width:1003px){
+	.navigacija ul li{
+		width:50%;
+	}
+	.slajder{
+		height:300px;
+		width:100%;
+	}
+	.slika{
+		width:100%;
+		margin:0px auto;
+	}
+	.blok{
+		width:90%;
+	}
+	.blok-gore{
+		width:50%;
+	}
+	.none{
+		display:none;
+	}
+	.block{
+		display:block;
+	}
+	.block-deca{
+		width:100%;
+	}
+	#blok{
+		width:80%;
+	}
+	#sadrzaj-dole{
+		width:100%;
+	}
+
+}
+@media screen and (max-width:795px){
+	.blok-gore-kontakt{
+		width:100%;
+	}
+	.h3-kontakt{
+		padding-top:3%;
+	}
+}
+@media screen and (max-width:590px){
+	.heder-dole h1 a{
+		font-size:30px;
+	}
+	.heder-levo ul li a{
+		font-size:14px;
+	}
+	.naslov h2{
+		font-size:26px;
+	}
+	.heder-levo, .heder-desno{
+		width:100%;
+	}
+	.navigacija ul li{
+		width:100%;
+	}
+	.navigacija ul li a{
+		font-size:16px;
+	}
+	p{
+		font-size:14px;
+	}
+	#sadrzaj-dole{
+		width:100%;
+	}
+	.slajder, .slader1{
+		height:200px;
+		width:80%;
+	}
+	.blok-gore{
+		width:100%;
+	}
+	.block-deca{
+		width:100%;
+	}
+	#blok{
+		width:90%;
+	}
+	.btn{
+		font-size:14px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
